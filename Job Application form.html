@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Form.png" type="image/x-icon">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <h1><b>Job Application Form</b></h1>
+    <form>
+    <ul type="none">
+        <li>
+<label>Full name </label>
+<input type="text" placeholder="Name" required>
+<br>
+        </li>
+
+<li>
+        <label>Email</label>
+        <input type="email" placeholder="Email" required>
+<br>
+</li>
+
+<li>         
+    <label> Phone Number</label>
+    <input type="tel" pattern="[0-9]{10}" placeholder="Phone Number" required>
+    <br>
+</li>
+
+<li>
+<label>Gender</label>
+<input type="text" placeholder="Gender" required>
+<br>
+</li>
+
+<li>
+    <label>DOB</label>
+    <input type="date" id="DOB" name="dob" required>
+    <br>
+</li>
+
+<li>
+    <label>Linkedin Profile</label>
+    <input type="url" placeholder="Linkedin">
+    <br>
+</li>
+
+<label>Expected Salary</label>
+<input type="number" placeholder="Salary" id="Expected Salary" name="Expected Salary" required>
+<li>
+    <label>Skills</label>
+    <br>
+    <input type="checkbox" id="HTML" name="Skills[]" value="HTML">
+    <label>HTML </label>
+</li>
+
+   <li>
+    <input type="checkbox" id="CSS" name="Skills[]" value="CSS">
+    <label>CSS</label>
+</li>
+
+       <li> 
+        <input type="checkbox" id="React JS" name="Skills[]">
+        <label>React JS</label>
+    </li>
+<li>
+    <input type="checkbox" id="ExpressJS" name="Skills[]" value="Express JS">
+    <label>ExpressJS</label>
+</li>
+
+<li>
+    <input type="checkbox" id="MongoDB" name="Skills[]" value="MongoDB">
+    <label>MongoDB</label>
+</li>
+
+<li>
+    <label>Job Role</label>
+<select id="Job Role" Name="Job Role" required>
+<option value=""> Select a role</option>
+<option value=" Frontend Developer" name="Frontend"> Frontend Developer</option>
+<option value="Backend Developer" name="Backend Developer">Backend Developer</option> 
+<option value="UI/UX Designer" name="UI/UX Designer" >UI/UX Designer</option>
+<option value="Q/A Tester"name="Q/A Tester">Q/A Tester</option>
+<option value="Full Stack Developer"name="Full Stack Developer"> Full Stack Developer</option>
+</option>
+</select>
+</li>
+<li>
+    <input type="submit"value="submit">
+    <input type="reset" value="reset">
+</li>
+ </ul>
+    </form>
+</body>
+</html>
