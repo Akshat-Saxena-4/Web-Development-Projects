@@ -5,5 +5,5 @@ This repository contains a collection of beginner to intermediate web developmen
 
 | Project Name             | Tech Stack                    | Description |
 |--------------------------|-------------------------------|-------------|
-| **Portfolio Website**    | HTML, CSS, JS, Bootstrap       | A personal portfolio site with animated sections and smooth scrolling. |
+| **Job Application Form**    | HTML      |                  A job application form using simple HTML |
 
